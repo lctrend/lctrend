@@ -1,0 +1,1260 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 05:47:04
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 7.4.33                                |8.0.28
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.0.28 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28
+DOC ROOT____________: "C:/xampp/htdocs/wordpress"
+REQUEST URL_________: "http://localhost/wordpress"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/xampp/htdocs/wordpress"
+URL_NEW_____________: "http://localhost/wordpress"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/xampp/htdocs/wordpress/lctrendc_[HASH]_20230427173027_archive.zip"
+ARCHIVE SIZE________: 155.99MB
+CREATED_____________: 2023-04-27 17:30:27
+WP VERSION__________: 6.2
+DUP VERSION_________: 1.5.3.1
+LICENSE_____________: Free version
+DB VERSION__________: 5.7.39
+DB FILE SIZE________: 8.66MB
+DB TABLES___________: 65
+DB ROWS_____________: 6485
+URL HOME____________: http://lctrend.net
+URL CORE____________: http://lctrend.net
+URL CONTENT_________: http://lctrend.net/wp-content
+URL UPLOAD__________: http://lctrend.net/wp-content/uploads
+URL PLUGINS_________: http://lctrend.net/wp-content/plugins
+URL MU PLUGINS______: http://lctrend.net/wp-content/mu-plugins
+URL THEMES__________: http://lctrend.net/wp-content/themes
+PATH HOME___________: /home/customer/www/lctrend.net/public_html
+PATH ABS____________: /home/customer/www/lctrend.net/public_html
+PATH WPCONFIG_______: /home/customer/www/lctrend.net/public_html
+PATH WPCONTENT______: /home/customer/www/lctrend.net/public_html/wp-content
+PATH UPLOADS________: /home/customer/www/lctrend.net/public_html/wp-content/uploads
+PATH PLUGINS________: /home/customer/www/lctrend.net/public_html/wp-content/plugins
+PATH MUPLUGINS______: /home/customer/www/lctrend.net/public_html/wp-content/mu-plugins
+PATH THEMES_________: /home/customer/www/lctrend.net/public_html/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "lctrend.net/"
+
+PLUGINS
+PLUGIN [SLUG:all-in-one-seo-pack/all_in_one_seo_pack.php       ][ON:true ]  All in One SEO
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:false]  Contact Form 7
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:envira-gallery-lite/envira-gallery-lite.php       ][ON:false]  Envira Gallery Lite
+PLUGIN [SLUG:google-analytics-for-wordpress/googleanalytics.php][ON:true ]  Google Analytics for WordPress by MonsterInsights
+PLUGIN [SLUG:leadin/leadin.php                                 ][ON:true ]  HubSpot All-In-One Marketing - Forms, Popups, Live Chat
+PLUGIN [SLUG:otter-blocks/otter-blocks.php                     ][ON:true ]  Otter – Page Builder Blocks & Extensions for Gutenberg
+PLUGIN [SLUG:wordpress-starter/siteground-wizard.php           ][ON:true ]  SiteGround Central
+PLUGIN [SLUG:sg-cachepress/sg-cachepress.php                   ][ON:true ]  SiteGround Optimizer
+PLUGIN [SLUG:sg-security/sg-security.php                       ][ON:true ]  SiteGround Security
+PLUGIN [SLUG:translatepress-multilingual/index.php             ][ON:true ]  TranslatePress - Multilingual
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:true ]  WooCommerce
+PLUGIN [SLUG:wordpress-importer/wordpress-importer.php         ][ON:true ]  WordPress Importer
+PLUGIN [SLUG:wpforms-lite/wpforms.php                          ][ON:false]  WPForms Lite
+PLUGIN [SLUG:wp-google-maps/wpGoogleMaps.php                   ][ON:true ]  WP Go Maps (formerly WP Google Maps)
+
+********************************************************************************
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\ctrls\ctrl.base.php:227][DELTA:   3.16926]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.87270]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00043]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+LOG-TIME[DELTA:   0.07053]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00053]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00018]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: soft warning
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.01420]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.06453]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00071]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.02223]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00143]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00058]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00196]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00023]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00067]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00150]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.07067]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00056]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00103]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00050]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00064]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 05:49:49
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "LcTrend"
+HOME URL NEW________: "http://localhost/wordpress"
+SITE URL NEW________: "http://localhost/wordpress/"
+CONTENT URL NEW_____: "http://localhost/wordpress/wp-content"
+UPLOAD URL NEW______: "http://localhost/wordpress/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/wordpress/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/wordpress/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/xampp/htdocs/wordpress"
+SITE PATH NEW_______: "C:/xampp/htdocs/wordpress/"
+CONTENT PATH NEW____: "C:/xampp/htdocs/wordpress/wp-content"
+UPLOAD PATH NEW_____: "C:/xampp/htdocs/wordpress/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/xampp/htdocs/wordpress/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/xampp/htdocs/wordpress/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/xampp/htdocs/wordpress/dup-installer"
+	FILE: "C:/xampp/htdocs/wordpress/lctrendc_[HASH]_20230427173027_installer-backup.php"
+	FILE: "C:/xampp/htdocs/wordpress/lctrendc_[HASH]_20230427173027_archive.zip"
+	FILE: "C:/xampp/htdocs/wordpress/installer.php"
+	FILE: "C:/xampp/htdocs/wordpress/dup-installer-bootlog__3a0c640-27173027.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "lctrendc_[HASH]_20230427173027_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0314 sec. - Files processed: 3,349 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3349
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0073 sec. - Files processed: 5,097 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5097
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0160 sec. - Files processed: 7,045 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7045
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0265 sec. - Files processed: 7,950 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7950
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0176 sec. - Files processed: 8,886 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8886
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0425 sec. - Files processed: 9,572 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9572
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0160 sec. - Files processed: 10,313 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10313
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.8489 sec. - Files processed: 11,331 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11331
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1383 sec. - Files processed: 12,212 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 12212
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0250 sec. - Files processed: 12,989 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 12989
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.2178 sec. - Files processed: 13,868 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 13868
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0175 sec. - Files processed: 14,966 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 14966
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0245 sec. - Files processed: 15,763 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15763
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0165 sec. - Files processed: 16,602 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 16602
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1839 sec. - Files processed: 17,228 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 17228
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0184 sec. - Files processed: 17,789 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 17789
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0128 sec. - Files processed: 18,458 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 18458
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1488 sec. - Files processed: 19,123 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 19123
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0419 sec. - Files processed: 19,733 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 19733
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0171 sec. - Files processed: 20,463 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 20463
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 21316
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 05:51:39 - RUNTIME: 110.6649 sec. - Files processed: 62,142 of 62,142
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 mqa_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 05:51:40
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "mqa_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "mqa_actionscheduler_actions"_____________________[ROWS:      19] [EXTRACT|REPLACE] [INST NAME: mqa_actionscheduler_actions]
+TABLE "mqa_actionscheduler_claims"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_actionscheduler_claims]
+TABLE "mqa_actionscheduler_groups"______________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: mqa_actionscheduler_groups]
+TABLE "mqa_actionscheduler_logs"________________________[ROWS:      51] [EXTRACT|REPLACE] [INST NAME: mqa_actionscheduler_logs]
+TABLE "mqa_aioseo_cache"________________________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: mqa_aioseo_cache]
+TABLE "mqa_aioseo_notifications"________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: mqa_aioseo_notifications]
+TABLE "mqa_aioseo_posts"________________________________[ROWS:      22] [EXTRACT|REPLACE] [INST NAME: mqa_aioseo_posts]
+TABLE "mqa_commentmeta"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_commentmeta]
+TABLE "mqa_comments"____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_comments]
+TABLE "mqa_duplicator_packages"_________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: mqa_duplicator_packages]
+TABLE "mqa_links"_______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_links]
+TABLE "mqa_options"_____________________________________[ROWS:     508] [EXTRACT|REPLACE] [INST NAME: mqa_options]
+TABLE "mqa_postmeta"____________________________________[ROWS:     828] [EXTRACT|REPLACE] [INST NAME: mqa_postmeta]
+TABLE "mqa_posts"_______________________________________[ROWS:     237] [EXTRACT|REPLACE] [INST NAME: mqa_posts]
+TABLE "mqa_sgs_log_events"______________________________[ROWS:     378] [EXTRACT|REPLACE] [INST NAME: mqa_sgs_log_events]
+TABLE "mqa_sgs_log_visitors"____________________________[ROWS:      27] [EXTRACT|REPLACE] [INST NAME: mqa_sgs_log_visitors]
+TABLE "mqa_termmeta"____________________________________[ROWS:      13] [EXTRACT|REPLACE] [INST NAME: mqa_termmeta]
+TABLE "mqa_terms"_______________________________________[ROWS:      25] [EXTRACT|REPLACE] [INST NAME: mqa_terms]
+TABLE "mqa_term_relationships"__________________________[ROWS:      44] [EXTRACT|REPLACE] [INST NAME: mqa_term_relationships]
+TABLE "mqa_term_taxonomy"_______________________________[ROWS:      25] [EXTRACT|REPLACE] [INST NAME: mqa_term_taxonomy]
+TABLE "mqa_trp_gettext_es_es"___________________________[ROWS:    2357] [EXTRACT|REPLACE] [INST NAME: mqa_trp_gettext_es_es]
+TABLE "mqa_trp_gettext_original_meta"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_trp_gettext_original_meta]
+TABLE "mqa_trp_gettext_original_strings"________________[ROWS:    2353] [EXTRACT|REPLACE] [INST NAME: mqa_trp_gettext_original_strings]
+TABLE "mqa_usermeta"____________________________________[ROWS:      25] [EXTRACT|REPLACE] [INST NAME: mqa_usermeta]
+TABLE "mqa_users"_______________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: mqa_users]
+TABLE "mqa_wc_admin_notes"______________________________[ROWS:      55] [EXTRACT|REPLACE] [INST NAME: mqa_wc_admin_notes]
+TABLE "mqa_wc_admin_note_actions"_______________________[ROWS:      65] [EXTRACT|REPLACE] [INST NAME: mqa_wc_admin_note_actions]
+TABLE "mqa_wc_category_lookup"__________________________[ROWS:      11] [EXTRACT|REPLACE] [INST NAME: mqa_wc_category_lookup]
+TABLE "mqa_wc_customer_lookup"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_wc_customer_lookup]
+TABLE "mqa_wc_download_log"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_wc_download_log]
+TABLE "mqa_wc_order_coupon_lookup"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_wc_order_coupon_lookup]
+TABLE "mqa_wc_order_product_lookup"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_wc_order_product_lookup]
+TABLE "mqa_wc_order_stats"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_wc_order_stats]
+TABLE "mqa_wc_order_tax_lookup"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_wc_order_tax_lookup]
+TABLE "mqa_wc_product_attributes_lookup"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_wc_product_attributes_lookup]
+TABLE "mqa_wc_product_download_directories"_____________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: mqa_wc_product_download_directories]
+TABLE "mqa_wc_product_meta_lookup"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_wc_product_meta_lookup]
+TABLE "mqa_wc_rate_limits"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_wc_rate_limits]
+TABLE "mqa_wc_reserved_stock"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_wc_reserved_stock]
+TABLE "mqa_wc_tax_rate_classes"_________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: mqa_wc_tax_rate_classes]
+TABLE "mqa_wc_webhooks"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_wc_webhooks]
+TABLE "mqa_woocommerce_api_keys"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_woocommerce_api_keys]
+TABLE "mqa_woocommerce_attribute_taxonomies"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_woocommerce_attribute_taxonomies]
+TABLE "mqa_woocommerce_downloadable_product_permissions"[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_woocommerce_downloadable_product_permissions]
+TABLE "mqa_woocommerce_log"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_woocommerce_log]
+TABLE "mqa_woocommerce_order_itemmeta"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_woocommerce_order_itemmeta]
+TABLE "mqa_woocommerce_order_items"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_woocommerce_order_items]
+TABLE "mqa_woocommerce_payment_tokenmeta"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_woocommerce_payment_tokenmeta]
+TABLE "mqa_woocommerce_payment_tokens"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_woocommerce_payment_tokens]
+TABLE "mqa_woocommerce_sessions"________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: mqa_woocommerce_sessions]
+TABLE "mqa_woocommerce_shipping_zones"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_woocommerce_shipping_zones]
+TABLE "mqa_woocommerce_shipping_zone_locations"_________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_woocommerce_shipping_zone_locations]
+TABLE "mqa_woocommerce_shipping_zone_methods"___________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_woocommerce_shipping_zone_methods]
+TABLE "mqa_woocommerce_tax_rates"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_woocommerce_tax_rates]
+TABLE "mqa_woocommerce_tax_rate_locations"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_woocommerce_tax_rate_locations]
+TABLE "mqa_wpforms_tasks_meta"__________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: mqa_wpforms_tasks_meta]
+TABLE "mqa_wpgmza"______________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: mqa_wpgmza]
+TABLE "mqa_wpgmza_admin_notices"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_wpgmza_admin_notices]
+TABLE "mqa_wpgmza_circles"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_wpgmza_circles]
+TABLE "mqa_wpgmza_image_overlays"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_wpgmza_image_overlays]
+TABLE "mqa_wpgmza_maps"_________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: mqa_wpgmza_maps]
+TABLE "mqa_wpgmza_point_labels"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_wpgmza_point_labels]
+TABLE "mqa_wpgmza_polygon"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_wpgmza_polygon]
+TABLE "mqa_wpgmza_polylines"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_wpgmza_polylines]
+TABLE "mqa_wpgmza_rectangles"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: mqa_wpgmza_rectangles]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.28 -- Build Server: 5.7.39
+FILE SIZE:	dup-database__[HASH].sql (3.2MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	562
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "mqa_actionscheduler_actions"_____________________[ROWS:    19]
+TABLE "mqa_actionscheduler_claims"______________________[ROWS:     0]
+TABLE "mqa_actionscheduler_groups"______________________[ROWS:     5]
+TABLE "mqa_actionscheduler_logs"________________________[ROWS:    51]
+TABLE "mqa_aioseo_cache"________________________________[ROWS:     6]
+TABLE "mqa_aioseo_notifications"________________________[ROWS:     2]
+TABLE "mqa_aioseo_posts"________________________________[ROWS:    22]
+TABLE "mqa_commentmeta"_________________________________[ROWS:     0]
+TABLE "mqa_comments"____________________________________[ROWS:     0]
+TABLE "mqa_duplicator_packages"_________________________[ROWS:     1]
+TABLE "mqa_links"_______________________________________[ROWS:     0]
+TABLE "mqa_options"_____________________________________[ROWS:   508]
+TABLE "mqa_postmeta"____________________________________[ROWS:   828]
+TABLE "mqa_posts"_______________________________________[ROWS:   237]
+TABLE "mqa_sgs_log_events"______________________________[ROWS:   378]
+TABLE "mqa_sgs_log_visitors"____________________________[ROWS:    27]
+TABLE "mqa_term_relationships"__________________________[ROWS:    44]
+TABLE "mqa_term_taxonomy"_______________________________[ROWS:    25]
+TABLE "mqa_termmeta"____________________________________[ROWS:    13]
+TABLE "mqa_terms"_______________________________________[ROWS:    25]
+TABLE "mqa_trp_gettext_es_es"___________________________[ROWS:  2357]
+TABLE "mqa_trp_gettext_original_meta"___________________[ROWS:     0]
+TABLE "mqa_trp_gettext_original_strings"________________[ROWS:  2353]
+TABLE "mqa_usermeta"____________________________________[ROWS:    25]
+TABLE "mqa_users"_______________________________________[ROWS:     1]
+TABLE "mqa_wc_admin_note_actions"_______________________[ROWS:    65]
+TABLE "mqa_wc_admin_notes"______________________________[ROWS:    55]
+TABLE "mqa_wc_category_lookup"__________________________[ROWS:    11]
+TABLE "mqa_wc_customer_lookup"__________________________[ROWS:     0]
+TABLE "mqa_wc_download_log"_____________________________[ROWS:     0]
+TABLE "mqa_wc_order_coupon_lookup"______________________[ROWS:     0]
+TABLE "mqa_wc_order_product_lookup"_____________________[ROWS:     0]
+TABLE "mqa_wc_order_stats"______________________________[ROWS:     0]
+TABLE "mqa_wc_order_tax_lookup"_________________________[ROWS:     0]
+TABLE "mqa_wc_product_attributes_lookup"________________[ROWS:     0]
+TABLE "mqa_wc_product_download_directories"_____________[ROWS:     2]
+TABLE "mqa_wc_product_meta_lookup"______________________[ROWS:     0]
+TABLE "mqa_wc_rate_limits"______________________________[ROWS:     0]
+TABLE "mqa_wc_reserved_stock"___________________________[ROWS:     0]
+TABLE "mqa_wc_tax_rate_classes"_________________________[ROWS:     2]
+TABLE "mqa_wc_webhooks"_________________________________[ROWS:     0]
+TABLE "mqa_woocommerce_api_keys"________________________[ROWS:     0]
+TABLE "mqa_woocommerce_attribute_taxonomies"____________[ROWS:     0]
+TABLE "mqa_woocommerce_downloadable_product_permissions"[ROWS:     0]
+TABLE "mqa_woocommerce_log"_____________________________[ROWS:     0]
+TABLE "mqa_woocommerce_order_itemmeta"__________________[ROWS:     0]
+TABLE "mqa_woocommerce_order_items"_____________________[ROWS:     0]
+TABLE "mqa_woocommerce_payment_tokenmeta"_______________[ROWS:     0]
+TABLE "mqa_woocommerce_payment_tokens"__________________[ROWS:     0]
+TABLE "mqa_woocommerce_sessions"________________________[ROWS:     5]
+TABLE "mqa_woocommerce_shipping_zone_locations"_________[ROWS:     0]
+TABLE "mqa_woocommerce_shipping_zone_methods"___________[ROWS:     0]
+TABLE "mqa_woocommerce_shipping_zones"__________________[ROWS:     0]
+TABLE "mqa_woocommerce_tax_rate_locations"______________[ROWS:     0]
+TABLE "mqa_woocommerce_tax_rates"_______________________[ROWS:     0]
+TABLE "mqa_wpforms_tasks_meta"__________________________[ROWS:     4]
+TABLE "mqa_wpgmza"______________________________________[ROWS:     1]
+TABLE "mqa_wpgmza_admin_notices"________________________[ROWS:     0]
+TABLE "mqa_wpgmza_circles"______________________________[ROWS:     0]
+TABLE "mqa_wpgmza_image_overlays"_______________________[ROWS:     0]
+TABLE "mqa_wpgmza_maps"_________________________________[ROWS:     1]
+TABLE "mqa_wpgmza_point_labels"_________________________[ROWS:     0]
+TABLE "mqa_wpgmza_polygon"______________________________[ROWS:     0]
+TABLE "mqa_wpgmza_polylines"____________________________[ROWS:     0]
+TABLE "mqa_wpgmza_rectangles"___________________________[ROWS:     0]
+
+INSERT DATA RUNTIME: 36.3531 sec.
+STEP-2 COMPLETE @ 05:52:17 - RUNTIME: 36.3536 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/customer/www/lctrend.net/public_html REPLACE: C:/xampp/htdocs/wordpress/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: /home/customer/www/lctrend.net/public_html REPLACE: C:/xampp/htdocs/wordpress [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://lctrend.net REPLACE: http://localhost/wordpress/ [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://lctrend.net REPLACE: http://localhost/wordpress [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 05:52:17
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 256M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 768M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [mqa_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_ui_view_state","duplicator_package_active","duplicator_settings","duplicator_is_pro_enable_notice_dismissed")
+DATABASE OPTIONS DELETED [ROWS:    90]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "mqa_actionscheduler_actions"_____________________[ROWS:    19][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_actionscheduler_actions][0]
+
+EVALUATE TABLE: "mqa_actionscheduler_claims"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_actionscheduler_groups"______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_actionscheduler_groups][0]
+
+EVALUATE TABLE: "mqa_actionscheduler_logs"________________________[ROWS:    51][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_actionscheduler_logs][0]
+
+EVALUATE TABLE: "mqa_aioseo_cache"________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_aioseo_cache][0]
+
+EVALUATE TABLE: "mqa_aioseo_notifications"________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_aioseo_notifications][0]
+
+EVALUATE TABLE: "mqa_aioseo_posts"________________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_aioseo_posts][0]
+
+EVALUATE TABLE: "mqa_commentmeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_comments"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_duplicator_packages"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_links"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_options"_____________________________________[ROWS:   418][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_options][0]
+
+EVALUATE TABLE: "mqa_postmeta"____________________________________[ROWS:   828][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_postmeta][0]
+
+EVALUATE TABLE: "mqa_posts"_______________________________________[ROWS:   237][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_posts][0]
+
+EVALUATE TABLE: "mqa_sgs_log_events"______________________________[ROWS:   378][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_sgs_log_events][0]
+	
+STEP-3 CHUNK STOP @ 05:52:22 - RUNTIME: 5.0666 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "mqa_sgs_log_visitors"____________________________[ROWS:    27][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_sgs_log_visitors][0]
+
+EVALUATE TABLE: "mqa_termmeta"____________________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_termmeta][0]
+
+EVALUATE TABLE: "mqa_terms"_______________________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_terms][0]
+
+EVALUATE TABLE: "mqa_term_relationships"__________________________[ROWS:    44][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_term_taxonomy"_______________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_term_taxonomy][0]
+
+EVALUATE TABLE: "mqa_trp_gettext_es_es"___________________________[ROWS:  2357][PG:   3][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_trp_gettext_es_es][0]
+	CHUNK ACTION: CURRENT [search_replace][mqa_trp_gettext_es_es][1]
+	CHUNK ACTION: CURRENT [search_replace][mqa_trp_gettext_es_es][2]
+
+EVALUATE TABLE: "mqa_trp_gettext_original_meta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_trp_gettext_original_strings"________________[ROWS:  2353][PG:   3][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_trp_gettext_original_strings][0]
+	CHUNK ACTION: CURRENT [search_replace][mqa_trp_gettext_original_strings][1]
+	CHUNK ACTION: CURRENT [search_replace][mqa_trp_gettext_original_strings][2]
+
+EVALUATE TABLE: "mqa_usermeta"____________________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_usermeta][0]
+
+EVALUATE TABLE: "mqa_users"_______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_users][0]
+
+EVALUATE TABLE: "mqa_wc_admin_notes"______________________________[ROWS:    55][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_wc_admin_notes][0]
+
+EVALUATE TABLE: "mqa_wc_admin_note_actions"_______________________[ROWS:    65][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "mqa_wc_category_lookup"__________________________[ROWS:    11][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_wc_customer_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_wc_download_log"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_wc_order_coupon_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_wc_order_product_lookup"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_wc_order_stats"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_wc_order_tax_lookup"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_wc_product_attributes_lookup"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_wc_product_download_directories"_____________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_wc_product_download_directories][0]
+
+EVALUATE TABLE: "mqa_wc_product_meta_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_wc_rate_limits"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_wc_reserved_stock"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_wc_tax_rate_classes"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "mqa_wc_webhooks"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_woocommerce_api_keys"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_woocommerce_attribute_taxonomies"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_woocommerce_log"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_woocommerce_order_itemmeta"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_woocommerce_order_items"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_woocommerce_payment_tokenmeta"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_woocommerce_payment_tokens"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_woocommerce_sessions"________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_woocommerce_sessions][0]
+
+EVALUATE TABLE: "mqa_woocommerce_shipping_zones"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_woocommerce_shipping_zone_locations"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_woocommerce_shipping_zone_methods"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_woocommerce_tax_rates"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_woocommerce_tax_rate_locations"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_wpforms_tasks_meta"__________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_wpforms_tasks_meta][0]
+
+EVALUATE TABLE: "mqa_wpgmza"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_wpgmza][0]
+
+EVALUATE TABLE: "mqa_wpgmza_admin_notices"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_wpgmza_circles"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_wpgmza_image_overlays"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_wpgmza_maps"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/customer/www/lctrend.net/public_html" ======> "C:/xampp/htdocs/wordpress"
+	SEARCH[urlnd]  2:"http://lctrend.net" ==============================> "http://localhost/wordpress"
+	CHUNK ACTION: CURRENT [search_replace][mqa_wpgmza_maps][0]
+
+EVALUATE TABLE: "mqa_wpgmza_point_labels"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_wpgmza_polygon"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_wpgmza_polylines"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "mqa_wpgmza_rectangles"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:65 	|	 Rows:6927 	|	 Cells:47268 
+UPDATED:	Tables:8 	|	 Rows:272 	|	 Cells:284 
+ERRORS:		0 
+RUNTIME:	4.493000 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/xampp/htdocs/wordpress/wp-config.php
+New htaccess file created:C:/xampp/htdocs/wordpress/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "http://localhost/wordpress/"
+	UPDATE DB_NAME ""bd""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 05:52:23 - RUNTIME: 1.1146 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[WARNING] One or multiple config files were found in main WordPress folders
+	SECTIONS: general
+	LONG MSG: Config files in WordPress main folders may cause problems with accessing the site after the installation. The following config files were found: - C:/xampp/htdocs/wordpress/wp-includes/.htaccess- C:/xampp/htdocs/wordpress/wp-content/.htaccessPlease consider removing those files in case you have problems with your site after the installation.
+
+====================================
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[WARNING] One or multiple config files were found in main WordPress folders
+	SECTIONS: general
+	LONG MSG: Config files in WordPress main folders may cause problems with accessing the site after the installation. The following config files were found: - C:/xampp/htdocs/wordpress/wp-includes/.htaccess- C:/xampp/htdocs/wordpress/wp-content/.htaccessPlease consider removing those files in case you have problems with your site after the installation.
+
+====================================
+LOG-TIME[C:\xampp\htdocs\wordpress\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.13754]  MESSAGE:END RENDER PAGE

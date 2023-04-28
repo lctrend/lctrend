@@ -1,0 +1,191 @@
+# Translation of Plugins - Otter &#8211; Gutenberg Blocks – Page Builder for Gutenberg Editor &amp; FSE - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Otter &#8211; Gutenberg Blocks – Page Builder for Gutenberg Editor &amp; FSE - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-01-10 17:19:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Otter &#8211; Gutenberg Blocks – Page Builder for Gutenberg Editor &amp; FSE - Development (trunk)\n"
+
+#: build/blocks/form-nonce/block.json
+msgctxt "block title"
+msgid "CSRF Protection"
+msgstr "Protección CSRF"
+
+#: inc/render/class-posts-grid-block.php:217
+msgid "Posted on"
+msgstr "Publicado el"
+
+#: inc/patterns/gallery.php:9
+msgid "Gallery"
+msgstr "Galería"
+
+#: inc/class-pro.php:321 build/blocks/blocks.js:16
+msgid "Learn more"
+msgstr "Aprende más"
+
+#: inc/class-pro.php:273
+msgid "Update"
+msgstr "Actualizar"
+
+#: inc/render/class-posts-grid-block.php:278
+msgid "Read More"
+msgstr "Leer Más"
+
+#: build/blocks/form-input/block.json
+msgctxt "block keyword"
+msgid "text"
+msgstr "texto"
+
+#: build/blocks/form/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "formulario"
+
+#: build/blocks/advanced-heading/block.json
+msgctxt "block keyword"
+msgid "title"
+msgstr "título"
+
+#: build/blocks/advanced-columns/block.json
+msgctxt "block keyword"
+msgid "section"
+msgstr "sección"
+
+#: build/blocks/flip/block.json
+msgctxt "block keyword"
+msgid "container"
+msgstr "contenedor"
+
+#: build/blocks/posts-grid/block.json
+msgctxt "block keyword"
+msgid "posts"
+msgstr "entradas"
+
+#: build/blocks/button/block.json
+msgctxt "block title"
+msgid "Button"
+msgstr "Botón"
+
+#: inc/class-registration.php:453 build/blocks/blocks.js:1
+msgid "Minutes"
+msgstr "Minutos"
+
+#: inc/class-registration.php:455 build/blocks/blocks.js:1
+msgid "Hours"
+msgstr "Horas"
+
+#: inc/class-registration.php:456 build/blocks/blocks.js:1
+msgid "Day"
+msgstr "Día"
+
+#: inc/class-patterns.php:39 inc/patterns/call-to-action.php:9
+msgid "Call to Action"
+msgstr "Llamada a la acción"
+
+#: inc/plugins/class-options-settings.php:152
+msgid "Anonymous data tracking object."
+msgstr "Objeto de seguimiento anónimo de datos."
+
+#: inc/server/class-dashboard-server.php:102
+msgid "Sorry, the filesystem isn't writeable."
+msgstr "Lo siento, no se puede escribir en el sistema de archivos."
+
+#: inc/server/class-dashboard-server.php:121
+msgid "Sorry, the directory doesn't exist."
+msgstr "Lo siento, el directorio no existe."
+
+#: inc/server/class-dashboard-server.php:137
+msgid "Styles deleted."
+msgstr "Estilos borrados."
+
+#: inc/plugins/class-options-settings.php:142 build/dashboard/index.js:1
+msgid "Become a contributor by opting in to our anonymous data tracking. We guarantee no sensitive data is collected."
+msgstr "Conviértete en colaborador apuntándote a nuestro seguimiento de datos anónimo. Garantizamos que no recogemos datos sensibles."
+
+#: otter-blocks.php:57 build/blocks/blocks.js:1 build/blocks/blocks.js:5
+#: build/blocks/blocks.js:11 build/blocks/blocks.js:12
+#: build/blocks/blocks.js:16
+msgid "Settings"
+msgstr "Ajustes"
+
+#: inc/plugins/class-options-settings.php:76 build/dashboard/index.js:1
+msgid "Blocks Animation module allows to add CSS animations to each block in Block Editor."
+msgstr "El módulo Blocks Animation permite añadir animaciones CSS a cada bloque en el editor de bloques."
+
+#: inc/plugins/class-options-settings.php:65 build/dashboard/index.js:1
+msgid "Custom CSS module allows to add custom CSS to each block in Block Editor."
+msgstr "El módulo Personalizar CSS permite añadir CSS personalizado a cada bloque en el Editor de Bloques"
+
+#: inc/plugins/class-options-settings.php:43
+msgid "Redirect on new install."
+msgstr "Redireccionar en una nueva instalación."
+
+#: inc/plugins/class-options-settings.php:248
+msgid "Make Section block your default block for Pages?"
+msgstr "¿Hacer el bloque de sección tu bloque por defecto para las páginas?"
+
+#: inc/class-registration.php:113 inc/plugins/class-dashboard.php:40
+#: inc/plugins/class-dashboard.php:41
+msgid "Otter"
+msgstr "Otter"
+
+#. Author of the plugin
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#. Plugin URI of the plugin
+msgid "https://themeisle.com/plugins/otter-blocks"
+msgstr "https://themeisle.com/plugins/otter-blocks"
+
+#. Author URI of the plugin
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#: inc/class-registration.php:998 inc/class-registration.php:1010
+#: inc/css/class-block-frontend.php:700 inc/css/class-block-frontend.php:712
+#: inc/css/class-css-handler.php:476 inc/css/class-css-handler.php:488
+#: inc/integrations/class-form-email.php:244
+#: inc/integrations/class-form-email.php:256
+#: inc/integrations/class-form-providers.php:141
+#: inc/integrations/class-form-providers.php:153
+#: inc/plugins/class-block-conditions.php:296
+#: inc/plugins/class-block-conditions.php:308
+#: inc/plugins/class-dashboard.php:171 inc/plugins/class-dashboard.php:183
+#: inc/plugins/class-dynamic-content.php:682
+#: inc/plugins/class-dynamic-content.php:694
+#: inc/plugins/class-options-settings.php:531
+#: inc/plugins/class-options-settings.php:543
+#: inc/render/amp/class-circle-counter-block.php:103
+#: inc/render/amp/class-circle-counter-block.php:115
+#: inc/render/amp/class-lottie.block.php:85
+#: inc/render/amp/class-lottie.block.php:97
+#: inc/render/amp/class-slider-block.php:87
+#: inc/render/amp/class-slider-block.php:99
+#: inc/render/class-masonry-variant.php:105
+#: inc/render/class-masonry-variant.php:117
+#: inc/server/class-dashboard-server.php:200
+#: inc/server/class-dashboard-server.php:212
+#: inc/server/class-dynamic-content-server.php:249
+#: inc/server/class-dynamic-content-server.php:261
+#: inc/server/class-form-server.php:759 inc/server/class-form-server.php:771
+#: inc/server/class-stripe-server.php:166
+#: inc/server/class-stripe-server.php:178
+msgid "Cheatin&#8217; huh?"
+msgstr "Haciendo trampas ¿eh?"
+
+#. Description of the plugin
+msgid "Create beautiful and attracting posts, pages, and landing pages with Otter – Page Builder Blocks & Extensions for Gutenberg. Otter comes with dozens of Gutenberg blocks that are all you need to build beautiful pages."
+msgstr "Crea hermosas y atractivas entradas, páginas y páginas de destino con Otter – Page Builder Blocks & Extensions for Gutenberg. Otter viene con docenas de bloques para Gutenberg que son todo lo que necesitas para crear bonitas páginas."
+
+#: inc/render/class-sharing-icons-block.php:45 build/blocks/blocks.js:16
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/render/class-sharing-icons-block.php:39 build/blocks/blocks.js:16
+msgid "Facebook"
+msgstr "Facebook"
